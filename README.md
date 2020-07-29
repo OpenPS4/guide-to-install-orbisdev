@@ -9,7 +9,7 @@ To install the orbisdev toolchain, you must meet the following requirements:
   Arch: 
 
   ```bash
-  sudo pacman -Sy git gcc dotnet-runtime dotnet-sdk llvm libnfs texinfo wget patch cmake clang m4 flex bison base-devel llvm-lib
+  sudo pacman -Sy git gcc vim dotnet-runtime dotnet-sdk llvm libnfs texinfo wget patch cmake clang m4 flex bison base-devel llvm-lib
   ```
 
   Debian/Ubuntu:
@@ -18,7 +18,7 @@ To install the orbisdev toolchain, you must meet the following requirements:
   wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
   sudo dpkg -i packages-microsoft-prod.deb
   sudo apt update
-  sudo apt install git gcc llvm libnfs-dev libnfs-utils texinfo wget patch cmake clang m4 flex bison build-essential dotnet-runtime-3.1 dotnet-sdk-3.1
+  sudo apt install git gcc llvm libnfs-dev vim libnfs-utils texinfo wget patch cmake clang m4 flex bison build-essential dotnet-runtime-3.1 dotnet-sdk-3.1
   ```
 
   
