@@ -119,7 +119,7 @@ I can't do a tutorial on how to mount an NFS server on all Linux distributions s
 
       ```bash
       git clone https://github.com/masterzorag/orbisdev-samples
-      cd orbis-dev-samples
+      cd orbis-dev-samples/basic
       make
       make oelf
       make eboot
