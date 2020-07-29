@@ -195,4 +195,16 @@ I can't do a tutorial on how to mount an NFS server on all Linux distributions s
    By pressing the different buttons you will see in the debugnet that you get a return that they have been pressed. If you hit the triangle, you will exit the application.
 
    ** Remember that you must rerun the debugnet session after it loads since the socket is closed and another is opened **
+   
+## Contributors
 
+This guide could not be possible without the work of:
+- psxdev aka bigboss
+- hitodama
+- flatz
+- maxton
+- masterzorag
+- fjtrujy
+- frangar
+- The rest of OrbisDev team
+- Many more I'm missing!
