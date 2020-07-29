@@ -115,27 +115,27 @@ I can't do a tutorial on how to mount an NFS server on all Linux distributions s
 
 1. Clone any example. In my case, I'll use masterzorag's example which you can download from [here](https://github.com/masterzorag/orbisdev-samples)
 
-   1. Compile it following these steps:
+2. Compile it following these steps:
 
-      ```bash
-      git clone https://github.com/masterzorag/orbisdev-samples
-      cd orbisdev-samples/basic
-      make
-      make oelf
-      make eboot
-      # optional: just if u wanna make it pkg
-      make pkg_build
-      ```
+   ```bash
+   git clone https://github.com/masterzorag/orbisdev-samples
+   cd orbisdev-samples/basic
+   make
+   make oelf
+   make eboot
+   # optional: just if u wanna make it pkg
+   make pkg_build
+   ```
 
-      Known issues: if you get an error during the `make eboot`step check, if you're using Python 2.7. In case you aren't, follow this extra step:
+   Known issues: if you get an error during the `make eboot` step check, if you're using Python 2.7. In case you aren't, follow this extra step:
 
-      ```bash
-      sudo apt install python 2.7
-      sed -i 's/python/python2.7/g' Makefile
-      ```
+   ```bash
+   sudo apt install python 2.7
+   sed -i 's/python/python2.7/g' Makefile
+   ```
 
-   2. Done. You compiled your first example.
-      In case u wanna use it with orbislink, remember to move the `homebrew.self` into the root of your NFS shared dir!
+3. Done. You compiled your first example.
+   In case u wanna use it with orbislink, remember to move the `homebrew.self` into the root of your NFS shared dir!
 
 ## Installation of orbislink and loading a test app
 
