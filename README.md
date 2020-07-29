@@ -29,10 +29,10 @@ To install the orbisdev toolchain, you must meet the following requirements:
 
   Since it can be somewhat difficult to get them, I leave you a list of .bin/.elf for each version in which the above patches are already:
 
-  * For 6.72: modified version of mira in .elf format: [download](https://github.com/OpenPS4/guide-to-install-orbisdev-toolchain/raw/master/resources/hen/Mira_Orbis_672.elf)
+  * For 6.72: modified version of mira in .elf format: [download](https://github.com/OpenPS4/guide-to-install-orbisdev/raw/master/resources/hen/Mira_Orbis_672.elf)
     Thanks to Al Azif for the `ssc_enable_data_mount_patch` 6.72 offset :stuck_out_tongue_winking_eye:
     ** (Side note: remember that to load the .elf you must use the "Bin Loader" of the OpenOrbis team)
-  * For 5.05: xXxTheDarkprogramerxXx fork that already includes these patches: [download](https://github.com/OpenPS4/guide-to-install-orbisdev-toolchain/raw/master/resources/hen/ps4-hen-vtx-505.bin)
+  * For 5.05: xXxTheDarkprogramerxXx fork that already includes these patches: [download](https://github.com/OpenPS4/guide-to-install-orbisdev/raw/master/resources/hen/ps4-hen-vtx-505.bin)
   * For versions lower than 5.05: I didn't find any payload done, but you can backport [this patch](https://github.com/xXxTheDarkprogramerxXx/ps4-hen-vtx/commit/854e5cf0a17db0dbaf31b89bd5b93b6b557ff0fb#diff-bfece34b95e61897401e3e6451776315R383) and it should work :smile:
   
 - You will need `libScePigletv2VSH.sprx` and `libSceShaccVSH.sprx` libraries. You can get them by loading RetroArch R4 and download the libraries from the `sce_module` folder mounted in the sandbox through FTP.
@@ -163,8 +163,8 @@ I can't do a tutorial on how to mount an NFS server on all Linux distributions s
    └── libSceShaccVSH.sprx
    ```
 
-   - In case you're missing `libScePigletv2VSH.sprx` or `libSceShaccVSH.sprx`, check [this requirement](https://github.com/OpenPS4/guide-to-install-orbisdev-toolchain#requirements)
-   - In case you're missing the `homebrew.self`, check [this step](https://github.com/OpenPS4/guide-to-install-orbisdev-toolchain#compiling-a-example)
+   - In case you're missing `libScePigletv2VSH.sprx` or `libSceShaccVSH.sprx`, check [this requirement](https://github.com/OpenPS4/guide-to-install-orbisdev#requirements)
+   - In case you're missing the `homebrew.self`, check [this step](https://github.com/OpenPS4/guide-to-install-orbisdev#compiling-a-example)
 
 4. Load HEN with the patches mentioned in the requirements and install the .pkg.
 
