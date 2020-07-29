@@ -26,13 +26,11 @@ To install the orbisdev toolchain, you must meet the following requirements:
   - Mac OS: WIP
 
 - HEN according to your firmware version with the following patches:
-
   - Patches to load resources from /data/self
   - Patch for ssc_enable_data_mount_patch
   - Obviously, patches for fself and fpkg
 
   Since it can be somewhat difficult to get them, I leave you a list of .bin/.elf for each version in which the above patches are already:
-
   * For 6.72: modified version of mira in .elf format: [download](https://github.com/OpenPS4/guide-to-install-orbisdev/raw/master/resources/hen/Mira_Orbis_672.elf)
     Thanks to Al Azif for the `ssc_enable_data_mount_patch` 6.72 offset :stuck_out_tongue_winking_eye:
     ** (Side note: remember that to load the .elf you must use the "Bin Loader" of the OpenOrbis team)
