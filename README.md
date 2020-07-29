@@ -192,7 +192,7 @@ I can't do a tutorial on how to mount an NFS server on all Linux distributions s
 5. If it was correct, after sending the config you should have had some return in the debugnet and the application should have started.
 
    In case you used the example we compiled above, you should get a beep. If after the first beep you get three beeps, that means something went wrong.
-   By pressing the different buttons you will see in the debugnet that you get a return like they have been pressed. If you hit the triangle, you will exit the application.
+   By pressing the different buttons you will see in the debugnet that you get a return that they have been pressed. If you hit the triangle, you will exit the application.
 
    ** Remember that you must rerun the debugnet session after it loads since the socket is closed and another is opened **
 
