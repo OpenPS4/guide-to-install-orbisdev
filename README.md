@@ -1,4 +1,4 @@
-# Guide to install the orbisdev toolchain and how to use it with orbislink
+# Guide to install orbisdev and how to use it with orbislink
 
 ## Requirements
 
