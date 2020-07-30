@@ -39,7 +39,7 @@ To install the orbisdev toolchain, you must meet the following requirements:
   
 - You will need `libScePigletv2VSH.sprx` and `libSceShaccVSH.sprx` libraries. You can get them by loading RetroArch R4 and download the libraries from the `sce_module` folder mounted in the sandbox through FTP.
 
-- An NFS server with the following permissions: `*(sync,rw,no_subtree_check,insecure,fsid=0)` (to save you time NFS servers don't work in WSL)
+- An NFS server with the following permissions: `*(sync,rw,no_subtree_check,insecure,fsid=0)` (to save you time NFS servers don't work in WSL 1)
 
 - Have orbislink.pkg installed: [download](https://github.com/orbisdev/orbisdev-orbislink/raw/master/pkg/IV0003-BIGB00004_00-ORBISLINK0000000.pkg) (no need to repackage the .pkg, it's universal)
 
