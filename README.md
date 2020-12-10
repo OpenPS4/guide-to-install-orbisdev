@@ -21,9 +21,12 @@ To install the orbisdev toolchain, you must meet the following requirements:
   sudo apt install git gcc llvm libnfs-dev vim libnfs-utils texinfo wget patch cmake clang m4 flex bison build-essential dotnet-runtime-3.1 dotnet-sdk-3.1
   ```
 
-  
+  macOS: Install the latest XCode from the AppStore
 
-  - Mac OS: WIP
+  ```bash
+  brew install libnfs wget
+  brew cask install dotnet-sdk
+  ```
 
 - HEN according to your firmware version with the following patches:
   - Patches to load resources from /data/self
